@@ -1,0 +1,36 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Tyler J Presley
+N:Presley;Tyler;J;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:me@tjpresley.com
+EMAIL;TYPE=INTERNET;TYPE=WORK:tjpresley@istonebridge.com
+EMAIL;TYPE=INTERNET;TYPE=WORK:tjpresley@mainstream-tech.com
+TEL;TYPE=TEL:(501) 291-2055
+item1.TEL:(501) 801-6717
+item1.X-ABLabel:MTI Direct
+item2.TEL:(501) 801-6700
+item2.X-ABLabel:MTI Office
+item3.TEL:(501) 217-9715
+item3.X-ABLabel:MTI Fax
+ADR;TYPE=HOME:;;PO Box 10662\nConway\,  AR  72034\nUnited States;;;;
+item4.ADR:;;325 W Capitol Ave\n2nd Floor;Little Rock;AR;72201;United States
+item4.X-ABLabel:MTI Office
+ORG:Mainstream Technologies & Stonebridge Interactive
+TITLE:Solutions Architect & Developer
+item5.URL:http\://www.tjpresley.com
+item5.X-ABLabel:Me
+item6.URL:http\://www.stonebridgeinteractive.com
+item6.X-ABLabel:SBi
+item7.URL:http\://www.mainstream-tech.com
+item7.X-ABLabel:MTI
+item8.URL:https\://plus.google.com/u/0/110567621070213234551/about
+item8.X-ABLabel:G+
+item9.URL:https\://www.facebook.com/tjpresley
+item9.X-ABLabel:Facebook
+item10.URL:https\://twitter.com/tjpresley83
+item10.X-ABLabel:Twitter
+item11.URL:http\://www.linkedin.com/in/tjpresley
+item11.X-ABLabel:LinkedIn
+item13.URL:http\://open.spotify.com/user/tjpresley
+item13.X-ABLabel:Spotify
+END:VCARD

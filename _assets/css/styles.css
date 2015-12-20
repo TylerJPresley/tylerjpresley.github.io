@@ -1,0 +1,63 @@
+body{font-family:'Open Sans',sans-serif;font-size:13px;background-color:#76a5a8;padding:20px 0 40px;color:#444;}
+.container-narrow{min-width:250px;max-width:800px;background-color:#FFF;margin:0 auto;padding:30px 20px 20px;border:1px solid #DDD;box-shadow:0 4px 8px #555;}
+.masthead h1{text-transform:uppercase;margin:0;padding:0 0 0 35px;display:inline-block;font:2em/28px 'Open Sans',sans-serif;font-weight:600;color:#000;}
+.masthead h1 span{font-size:.5em;line-height:.5em;color:#999;}
+.masthead h1 i{color:#777;margin:0 0 0 -30px;}
+h2.section-header{font-size:1.6em;line-height:28px;color:#000;text-transform:uppercase;font:1.6em/28px 'open sans condensed',sans-serif;font-weight:600;}
+h3{font:1.4em/1em 'open sans condensed',sans-serif;font-weight:600;text-transform:uppercase;}
+.profile-picture{text-align:left;padding:0;}
+.left{text-align:left!important;}
+.center{text-align:center!important;}
+.right{text-align:right!important;}
+.inline{display:inline;}
+.table-condensed{border-bottom:1px solid #EFEFEF;}
+.table-condensed th,.table-condensed td{border-top:1px solid #EFEFEF;}
+.progress{border-radius:0 0 0 0;background:#fff;border:1px solid #e6e6e6;box-shadow:inset 1px 1px 1px rgba(255,255,255,0), inset -1px -1px 1px rgba(0,0,0,0);margin:0;}
+.progress .bar{background:none #777;box-shadow:inset 1px 1px 1px rgba(255,255,255,0), inset -1px -1px 1px rgba(0,0,0,0);filter:none;}
+.progress.progress-primary .bar{background:none #555;}
+.progress.progress-secondary .bar{background:none #777;}
+#contact_gmap{height:115px;}
+.w-70{width:70%;}
+.label{border-radius:0 0 0 0;font:.8em/1.3em 'open sans', sans-serif;font-weight:600;}
+.label.label-important{background:#555;}
+.label.label-partial{background:#777;}
+ul.employment{margin:0 0 20px;padding:0;list-style:none;}
+ul.employment li{display:block;padding:0 0 20px;position:relative;}
+ul.employment li > span{display:block;float:left;}
+ul.employment li h3{background:rgba(113,195,154,0.1);padding:5px;margin:0;color:#777;font:1.2em/1.2em 'open sans',sans-serif;font-weight:600;text-transform:none;}
+ul.employment li .date .label{display:inline;top:3px;position:relative;padding:3px 20px;}
+.btn{background-image:none;background-color:#CCC;box-shadow:inset 1px 1px 1px rgba(255,255,255,0), inset -1px -1px 1px rgba(0,0,0,0);text-shadow:none;font-weight:700;font-size:1em;text-transform:uppercase;border-radius:0 0 0 0;padding:8px 19px;line-height:1em;}
+.no-top-margin{margin-top:0!important;}
+.no-bottom-margin{margin-bottom:0!important;}
+.twitter{min-height:60px;padding:0 0 0 85px; font-size:.9em;background: url(/_assets/img/twitter-bg.png) no-repeat;}
+.social-icons{margin-top:-2px;}
+.carousel{line-height:1.3em;margin-bottom:0;}
+.txt-phone{display:none!important;}
+.error-msg-loading{display:none;}
+.error-msg-wrapper,.error-msg-wrapper *{line-height:32px;vertical-align:middle;}
+textarea:focus,input[type=text]:focus{border-color:#E0D5C6;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px #e0d5c6;}
+input[type=text],select,textarea{border-color:#D8D9DA;color:#A7A7A7;border-radius:0 0 0 0;}
+hr{border:2px solid #EEE;margin:1.25em 0;}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    body{margin:0;padding:0;}
+    .container-narrow{box-shadow:none;border:0;}
+    .profile-picture{text-align:center;padding-bottom:1em;}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .masthead h1{padding:0;}
+    .masthead h1 i{display:none}
+}
+
+/* Landscape phones and down */
+@media (max-width: 320px) {
+    .masthead .pull-right{display:none}
+}
